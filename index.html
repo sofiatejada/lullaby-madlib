@@ -8,45 +8,37 @@
     <title>Mad-Libs</title>
 </head>
 <body>
-
     <header>
         <h1>Let's Play Madlibs!</h1>
     </header>
-    
-    <p class='lullaby' id='text-body'>
-        Rock-a-bye <span id='noun1'>baby</span>
-
-        On the <span id='noun2'>tree</span> tops,
-
-        When the wind <span id='verb1-s'>blows</span>
-
-        The <span id='noun3'>cradle</span> will <span id='verb2'>rock</span>.
-
-        When the <span id='noun2-part'>bough</span> breaks
-
-        The <span id='noun3-again'>cradle</span> will fall,
-
-        And down will come <span id='noun1-again'>baby</span>
-
-        <span id='noun3-last'>Cradle</span> and all.
-    </p> 
-
     <p class='inputs'>
         <label>Come up with some fun words!</label>
 
-            <input id='input-noun1' placeholder='First Noun'/>
-            <input id='input-noun2' placeholder='Second Noun'/>
-            <input id='input-verb1-s' placeholder='First Verb ending in s'/>
-            <input id='input-noun3' placeholder='Third Noun'/>
-            <input id='input-verb2' placeholder='Second Verb'/>
-            <input id='input-noun2-part' placeholder='Part of Second Noun'>
+            <p class= 'inputs'><input id='input-noun1' placeholder='First Noun'/></p>
+            <p class= 'inputs'></p><input id='input-noun2' placeholder='Second Noun'/></p>
+            <p class= 'inputs'></p><input id='input-verb1-s' placeholder='First Verb ending in s'/></p>
+            <p class= 'inputs'></p><input id='input-noun3' placeholder='Third Noun'/></p>
+            <p class= 'inputs'></p><input id='input-verb2' placeholder='Second Verb'/></p>
+            <p class= 'inputs'></p><input id='input-noun2-part' placeholder='Part of Second Noun'></p>
     </p>
+        <button id='madlib-button'>Generate my madlib!</button>
+    <section class='lullaby' id='text-body'>
+       <p class="lines"> Rock-a-bye <span class='inputs' id='noun1'>baby</span></p>
 
+       <p class="lines">On the <span class='inputs' id='noun2'>tree</span> tops,</p>
 
+        <p class="lines"></p>When the wind <span class='inputs' id='verb1-s'>blows</span></p>
 
+        <p class="lines"></p>The <span class='inputs' id='noun3'>cradle</span> will <span id='verb2'>rock</span>.</p>
 
+        <p class="lines"></p>When the <span class='inputs' id='noun2-part'>bough</span> breaks</p>
 
+        <p class="lines"></p>The <span class='inputs' id='noun3-again'>cradle</span> will fall,</p>
 
+        <p class="lines"></p>And down will come <span class='inputs' id='noun1-again'>baby</span></p>
+
+        <p class="lines"></p><span class='inputs' id='noun3-last'>Cradle</span> and all.</p>
+    </section> 
 
 <script src="./app.js"></script>
 </body>
