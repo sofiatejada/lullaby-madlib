@@ -18,28 +18,43 @@ body, html {
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(36, 2, 104);
-    background-color: rgb(79, 112, 245);
-    margin: 10px;
+    background-color: rgba(79, 112, 245, 0.322);
     padding: 10px;
     width: 1fr;
     border: rgb(2, 70, 107) double 10px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 10px;
 }
+
 #text-body {
     display: none;
+    align-items: center;
+    background-color:  rgba(147, 133, 209, 0.452);
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 2px;
+
 }
 #madlib-button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(0, 0, 148);
-    background-color: rgb(86, 141, 199);
+    background-color: rgba(86, 141, 199, 0.336);
     font-weight: bolder;
     padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
 }
 input {
     text-align: center;
-    background-color: rgb(179, 234, 252);
+    background-color: rgba(179, 234, 252, 0.295);
     border: double 4px rgb(58, 11, 227);
     padding: 5px;
+    border-radius: 10px;
 }
 label {
+    font-size: 1.5em;
 
 }
