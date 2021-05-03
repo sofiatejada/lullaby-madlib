@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Mad-Libs</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap" rel="stylesheet">
+    <iframe width=“1” height=“1” src="https://www.youtube.com/embed/1RJGZc_977s" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay: 1; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
 </head>
+
 <body>
     <header>
         <h1>Let's Play Madlibs!</h1>
@@ -14,18 +22,18 @@
     <p class='inputs'>
         <label>Come up with some fun words!</label>
 
-            <p class= 'inputs'><input id='input-noun1' placeholder='First Noun'/></p>
-            <p class= 'inputs'></p><input id='input-noun2' placeholder='Second Noun'/></p>
-            <p class= 'inputs'></p><input id='input-verb1-s' placeholder='First Verb ending in s'/></p>
-            <p class= 'inputs'></p><input id='input-noun3' placeholder='Third Noun'/></p>
-            <p class= 'inputs'></p><input id='input-verb2' placeholder='Second Verb'/></p>
-            <p class= 'inputs'></p><input id='input-noun2-part' placeholder='Part of Second Noun'></p>
+    <p class='inputs'><input id='input-noun1' placeholder='First Noun' /></p>
+    <p class='inputs'></p><input id='input-noun2' placeholder='Second Noun' /></p>
+    <p class='inputs'></p><input id='input-verb1-s' placeholder='First Verb ending in s' /></p>
+    <p class='inputs'></p><input id='input-noun3' placeholder='Third Noun' /></p>
+    <p class='inputs'></p><input id='input-verb2' placeholder='Second Verb' /></p>
+    <p class='inputs'></p><input id='input-noun2-part' placeholder='Part of Second Noun'></p>
     </p>
-        <button id='madlib-button'>Generate my madlib!</button>
+    <button id='madlib-button'>Generate my madlib!</button>
     <section class='lullaby' id='text-body'>
-       <p class="lines"> Rock-a-bye <span class='inputs' id='noun1'>baby</span></p>
+        <p class="lines"> Rock-a-bye <span class='inputs' id='noun1'>baby</span></p>
 
-       <p class="lines">On the <span class='inputs' id='noun2'>tree</span> tops,</p>
+        <p class="lines">On the <span class='inputs' id='noun2'>tree</span> tops,</p>
 
         <p class="lines"></p>When the wind <span class='inputs' id='verb1-s'>blows</span></p>
 
@@ -38,8 +46,9 @@
         <p class="lines"></p>And down will come <span class='inputs' id='noun1-again'>baby</span></p>
 
         <p class="lines"></p><span class='inputs' id='noun3-last'>Cradle</span> and all.</p>
-    </section> 
+    </section>
 
-<script src="./app.js"></script>
+    <script src="./app.js"></script>
 </body>
+
 </html>

@@ -6,6 +6,10 @@ const displayVerb1S = document.getElementById('verb1-s');
 const displayNoun3 = document.getElementById('noun3');
 const displayVerb2 = document.getElementById('verb2');
 const displayNoun2Part = document.getElementById('noun2-part');
+const displayNoun3Again = document.getElementById('noun3-again');
+const displayNoun1Again = document.getElementById('noun1-again');
+const displayNoun3Last = document.getElementById('noun3-last');
+
 const displayTextBody = document.getElementById('text-body');
 // inputs
 const input1 = document.getElementById('input-noun1');
@@ -24,5 +28,8 @@ button.addEventListener('click', () => {
     displayNoun3.textContent = input4.value;
     displayVerb2.textContent = input5.value;
     displayNoun2Part.textContent = input6.value;
+    displayNoun3Again.textContent = input4.value;
+    displayNoun1Again.textContent = input1.value;
+    displayNoun3Last.textContent = input4.value;
     displayTextBody.style.display = 'block';
 });
