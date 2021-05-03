@@ -16,7 +16,7 @@ body, html {
 }
 
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Clicker Script', cursive;
     color: rgb(36, 2, 104);
     background-color: rgba(79, 112, 245, 0.322);
     padding: 10px;
@@ -46,6 +46,7 @@ h1 {
     padding: 10px;
     margin: 5px;
     border-radius: 10px;
+    border: double;
 }
 input {
     text-align: center;
@@ -57,4 +58,8 @@ input {
 label {
     font-size: 1.5em;
 
+}
+
+iframe {
+    display: none;
 }
